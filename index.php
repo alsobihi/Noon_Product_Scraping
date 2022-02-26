@@ -229,7 +229,7 @@ if (empty($json->props->pageProps->props->catalog->product)) {
  $sql = "INSERT INTO noon_offer ($col) VALUES ($VALUE)";
     $sql .="";
     $query = mysqli_query($dbc, $sql);
-    confirm($query);
+    
 
 
 
